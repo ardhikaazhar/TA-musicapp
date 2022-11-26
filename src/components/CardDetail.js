@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function CardDetail({data}) {
+  //menggunakan variable data sebagai props
   return (
     <>
     <div className="detail-wrapper">

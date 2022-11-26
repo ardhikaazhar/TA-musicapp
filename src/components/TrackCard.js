@@ -2,8 +2,10 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 export default function TrackCard({track}) {
+  //menggunakan variable track sebagai props
   return (
     <Link to={`/detail/${track.id}`}>
+      {/* link digunakan untuk routing ke halaman lain dengan params id */}
     <div className="track-wrapper">
     <div className="card-track">
         <div className="image-title">

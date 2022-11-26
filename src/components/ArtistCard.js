@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function ArtistCard({artist}) {
+  //menggunakan variable artist sebagai props
   return (
     <Link to={`/artist/${artist.id}`}>
     <div className="track-wrapper">
