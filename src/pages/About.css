@@ -4,7 +4,7 @@
 .about-text {
     text-align: center;
 }
-a {
+.dika-github {
     display: flex;
     justify-content: center;
     gap: 10px;
