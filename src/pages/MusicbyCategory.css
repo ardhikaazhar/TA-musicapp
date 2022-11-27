@@ -4,6 +4,8 @@
     height: 100px ;
     cursor: pointer;
     margin: 10px auto;
+    display: flex;
+    align-items: center;
 }
 .track-wrapper:hover {
     border: 2px solid #957DAD;
@@ -12,22 +14,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 .image-title {
     width: 100%;
     height: 100%;
     display: flex;
     padding-left: 10%;
+    gap: 10%;
+    display: flex;
+    align-items: center;
 }
 .card-track__image img{
     width: 80px;
     height: 80px;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 .card-track__image {
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items:center ;
-    margin-right: 50px;
 }
 .card-track__info h2, p {
     margin: 0;
