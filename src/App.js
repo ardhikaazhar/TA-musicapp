@@ -36,12 +36,12 @@ function App() {
 
           {/* halaman kategori*/}
           <Route path="/categories" element={<Categories />} />
-
-          {/* halaman kategori berdasarkan id,
-              contoh: categories/pop
-                      categories/rock
-                      categories/jazz
-          */}
+          
+          {/* halaman kategori berdasarkan genre,
+              contoh: categories/rock
+                      categories/pop
+                      categories/hiphop
+          */}       
           <Route path="/categories/:genre" element={<MusicbyCategory />} />
 
           {/* halaman leaderboards */}
